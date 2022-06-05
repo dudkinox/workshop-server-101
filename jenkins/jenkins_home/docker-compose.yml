@@ -4,7 +4,7 @@ services:
   jenkins:
     user: root
     container_name: jenkins
-    image: jenkins-with-docker
+    image: 967c1049e2f6
     restart: always
     volumes:
       - /home/superuser/jenkins/jenkins_home:/var/jenkins_home
