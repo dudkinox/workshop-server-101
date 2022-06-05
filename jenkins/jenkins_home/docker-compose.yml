@@ -3,7 +3,7 @@ version: "3.9"
 services:
   jenkins:
     user: root
-    container_name: jenkins
+    container_name: frindly_mendel
     image: 967c1049e2f6
     restart: always
     volumes:
